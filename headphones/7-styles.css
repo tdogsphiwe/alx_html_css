@@ -210,36 +210,67 @@ button {
   }
 
 
-  /* This part is for the CONTACT US section */
+ /* -------------------Contact Section------------------------ */
+ .contact-section {
+  background-color: var(--white);
+  color: var(--secondary);
+}
 
-  .contact {
+.contact-component {
     display: flex;
     flex-direction: column;
-    width: 335px;
-    height: 373px;
-    margin: auto;
-    margin-top: 100px;
-  }
+    align-items: center;
+    justify-items: center;
+}
 
-  .contact h1 {
+.contact-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+}
+
+.contact-form div {
+  width: 100%;
+}
+
+form label {
+  display: none;
+}
+
+input, textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #979797;
+  padding: 10px 2px;
+}
+
+input::placeholder, textarea::placeholder {
+  font-family: 'source-bold';
+  font-size: 14px;
+  color: var(--secondary);
+}
+
+textarea::placeholder {
+  font-size: 16px;
+  resize: none;
+}
+
+#button-wrap {
     text-align: center;
-    padding-bottom: 50px;
-    font-size: 32px;
-  }
+}
 
-  .contact button {
-    margin: auto;
-
-  }
-
-  hr {
-    margin-bottom: 50px;
-    margin-top: 10px;
-  }
-
-  .contact h3 {
-    font-size: 14px;
-  }
+.btn {
+  background-color: var(--primary);
+  padding: 13px 20px;
+  border: none;
+  border-radius: 22px;
+  font-family: 'source-semi-bold';
+  font-size: 14px;
+  color: var(--white);
+}
 
   /* This part is for the footer */
 
