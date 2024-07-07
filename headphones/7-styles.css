@@ -308,3 +308,135 @@ button {
     font-size: 12px;
     padding-top: 230px;
 }
+
+@media (max-width: 991px) {
+    .hero-section {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  
+    .hero-content {
+      max-width: 100%;
+    }
+  
+    .header {
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+  
+    .hero-title {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .cta-button {
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+  
+    .hero-description {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .section-title {
+      margin-top: 40px;
+    }
+  
+    .section-description {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .features {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .feature-grid {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  
+    .feature-column {
+      width: 100%;
+    }
+  
+    .feature-item {
+      margin-top: 40px;
+    }
+  
+    .results-section {
+      max-width: 100%;
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+  
+    .results-content {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .results-title {
+      max-width: 100%;
+    }
+  
+    .results-description {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .results-grid {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .results-row {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  
+    .result-item {
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+  
+    .result-number {
+      font-size: 40px;
+    }
+  
+    .contact-title {
+      margin-top: 40px;
+    }
+  
+    .form-label {
+      margin-top: 40px;
+    }
+  
+    .submit-button {
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+  
+    .footer {
+      max-width: 100%;
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+  
+    .footer-content {
+      max-width: 100%;
+    }
+  
+    .footer-row {
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+  
+    .footer-copyright {
+      margin-top: 40px;
+    }
+  }
+  
